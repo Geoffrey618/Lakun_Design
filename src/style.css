@@ -1,0 +1,44 @@
+* {
+  font-family: Avenir;
+}
+body {
+  margin: 0px;
+}
+h1 {
+  color: white;
+}
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/background3.jpg);
+  background-size: contain;  /* 图片完整展现并适应容器的尺寸 */
+  background-position: center center;  /* 图片居中显示 */
+}
+.card {
+  width: 300px;
+  position: absolute;    /* 或使用 position: fixed; 根据需要选择 */
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);  /* 这会使卡片从其中心点进行偏移，从而实现完全的居中 */
+  text-align: center;
+  padding-top: 6vw;
+}
+.title {
+  padding-top: 32px;
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+}
+input {
+  width: calc(100% - 16px);
+  margin-top: 12px;
+  padding: 8px;
+  background-color: #e6f7ff;
+  outline: none;
+  border: 1px solid #e6f7ff;
+}
+button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px;
+}
